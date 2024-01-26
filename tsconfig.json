@@ -1,0 +1,17 @@
+{
+	"extends": "@codingame/tsconfig",
+	"compilerOptions": {
+		"declaration": true,
+		"target": "es2020",
+		"module": "esnext",
+		"lib": [
+			"es2021",
+			"DOM"
+		],
+		"outDir": "dist",
+		"preserveConstEnums": true
+	},
+	"include": [
+		"./src/**/*"
+	]
+}
