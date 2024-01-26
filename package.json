@@ -1,6 +1,7 @@
 {
   "name": "@codingame/esbuild-import-meta-url-plugin",
   "version": "0.0.0-semantic-release",
+  "private": false,
   "description": "Esbuild plugin allowing to use t he `new URL(..., import.meta.url)` syntax",
   "type": "module",
   "module": "dist/esbuildImportMetaUrlPlugin.js",
@@ -27,11 +28,11 @@
     "@codingame/semantic-release-config": "^1.3.4",
     "@codingame/tsconfig": "^1.1.1",
     "@commitlint/cli": "^18.6.0",
-    "esbuild": "^0.19.12",
+    "@types/node": "^20.11.7",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@types/node": "^20.11.7",
+    "esbuild": ">=0.19.x",
     "import-meta-resolve": "^4.0.0"
   },
   "volta": {
