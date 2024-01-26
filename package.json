@@ -1,6 +1,7 @@
 {
   "name": "@codingame/esbuild-import-meta-url-plugin",
   "version": "0.0.0-semantic-release",
+  "private": false,
   "description": "Esbuild plugin allowing to use t he `new URL(..., import.meta.url)` syntax",
   "type": "module",
   "module": "dist/esbuildImportMetaUrlPlugin.js",
